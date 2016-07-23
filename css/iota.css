@@ -7,7 +7,7 @@ html {
 /* taken from http://bettermotherfuckingwebsite.com/ */
 
 body {
-    margin: 40px auto;
+    margin: 0 auto;  /* was 40px auto at bmfws */
     max-width: 650px;
     line-height: 1.6;
     font-size: 18px;
@@ -15,5 +15,8 @@ body {
 }
 
 h1, h2, h3 {
+    /* large font sizes look odd with larger line heights */
     line-height: 1.2;
 }
+
+/* iota styles */
