@@ -1,3 +1,9 @@
+/* reset the font family (override normalize) */
+
+html {
+    font-family: serif;
+}
+
 /* taken from http://bettermotherfuckingwebsite.com/ */
 
 body {
