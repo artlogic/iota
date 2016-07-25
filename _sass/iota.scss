@@ -1,0 +1,9 @@
+@import "iota/normalize";
+@import "iota/syntax-highlighting";
+@import "iota/bmfws";
+
+/* reset the font family (override normalize) */
+
+html {
+    font-family: serif;
+}
