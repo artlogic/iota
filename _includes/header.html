@@ -1,11 +1,17 @@
-<header>
-  <h1><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
-  <p>{{ site.description | escape }}</p>
-  <nav>
+<header class="site" role="banner">
+  <nav role="navigation">
     {% for my_page in site.pages %}
       {% if my_page.title %}
       <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a>
       {% endif %}
     {% endfor %}
   </nav>
+
+  {% if page.layout == 'index' %}
+  <h1><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
+  {% else %}
+  <p class="title"><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></p>
+  {% endif %}
+
+  <p class="tag">{{ site.description | escape }}</p>
 </header>
