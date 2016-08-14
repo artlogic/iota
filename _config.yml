@@ -11,9 +11,7 @@ author:
   name: Your Name
   email: your-email@domain.com
 description: > # this means to ignore newlines until "url:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Write an awesome description for your new site here.
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 license: > # the license (or copyright notice) for your site
   Copyright &copy; 2016 Your Name
