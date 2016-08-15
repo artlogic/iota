@@ -1,9 +1,83 @@
 @import "iota/normalize";
 @import "iota/syntax-highlighting";
-@import "iota/bmfws";
 
-/* reset the font family (override normalize) */
+// some inspiration taken from http://bettermotherfuckingwebsite.com/
 
 html {
+    // normalize changes the browser default to sans-serif - while I
+    // agree with most of normalize's opinionated changes, this one
+    // should crosses the line for me
     font-family: serif;
+
+    // readability - this isn't an aesthetic change, but a practical
+    // one - smaller, more closely spaced fonts are harder to read
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+body {
+    // readability - shorter lines are easier to read
+    max-width: 650px;
+
+    // opinionated/readability - center the content
+    margin: 0 auto;
+
+    // readability - on narrow devices, we need some padding
+    padding: 0 10px;
+}
+
+time {
+    // opinionated/readability - emphasize times, it's clearer to the
+    // user if they stand out from the content
+    font-style: italic;
+}
+
+header, footer {
+    p {
+        // opinionated/readability - paragraphs in headers and footers
+        // don't need extra margins
+        margin: 0;
+    }
+
+    h1, h2 {
+        // opinionated/readability - headings in headers don't need
+        // extra margins
+        margin: 0;
+    }
+}
+
+header.site {
+    // readability - clear separation of content
+    border-bottom: 1px solid #bbb;
+    // opinionated/readability - padding increases clarity
+    padding: 0.75em 0;
+
+    // consistency - make the page title look like an h1
+    p.title {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    nav {
+        // opinionated - nav should be aligned right - sets it apart
+        text-align: right;
+
+        a {
+            // readability - separate nav items
+            margin-left: 0.5em;
+        }
+    }
+}
+
+footer {
+    // readability - clear separation of content
+    border-top: 1px solid #bbb;
+
+    // opinionated/readability - padding increases clarity
+    padding: 0.5em 0;
+}
+
+article {
+    // opinionated/readability - articles should have some padding
+    margin: 1.5em 0;
 }
