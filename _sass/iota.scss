@@ -1,6 +1,9 @@
 @import "iota/normalize";
 @import "iota/syntax-highlighting";
 
+$horizontal-rule: 1px solid #bbb;
+$spacing: 0.5em;
+
 // some inspiration taken from http://bettermotherfuckingwebsite.com/
 
 html {
@@ -23,7 +26,7 @@ body {
     margin: 0 auto;
 
     // readability - on narrow devices, we need some padding
-    padding: 0 10px;
+    padding: 0 $spacing;
 }
 
 time {
@@ -33,6 +36,9 @@ time {
 }
 
 header, footer {
+    // opinionated/readability - padding increases clarity
+    padding: $spacing 0;
+
     p {
         // opinionated/readability - paragraphs in headers and footers
         // don't need extra margins
@@ -48,13 +54,11 @@ header, footer {
 
 header.site {
     // readability - clear separation of content
-    border-bottom: 1px solid #bbb;
-    // opinionated/readability - padding increases clarity
-    padding: 0.75em 0;
+    border-bottom: $horizontal-rule;
 
     // consistency - make the page title look like an h1
     p.title {
-        font-size: 2em;
+        font-size: 2em;  // matches normalize
         font-weight: bold;
     }
 
@@ -64,20 +68,17 @@ header.site {
 
         a {
             // readability - separate nav items
-            margin-left: 0.5em;
+            margin-left: $spacing;
         }
     }
 }
 
 footer {
     // readability - clear separation of content
-    border-top: 1px solid #bbb;
-
-    // opinionated/readability - padding increases clarity
-    padding: 0.5em 0;
+    border-top: $horizontal-rule;
 }
 
 article {
-    // opinionated/readability - articles should have some padding
-    margin: 1.5em 0;
+    // opinionated/readability - articles should have some margin
+    margin: $spacing 0;
 }
