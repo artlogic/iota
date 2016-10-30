@@ -18,7 +18,6 @@ Additionally, I've borrowed the Github/Jekyll [syntax highlighting style sheet](
 
 ## To Do
 
-* Figure out where site author information goes - in the footer?
 * Remove the compose and html-proofer plugins (just used for testing)
 * Package as a Jekyll theme
 * Rename the repo? iota-theme? jekyll-iota? jekyll-iota-theme?

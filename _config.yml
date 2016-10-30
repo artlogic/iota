@@ -15,8 +15,8 @@ description: > # this means to ignore newlines until "url:"
 baseurl: "/iota" # the subpath of your site, e.g. /blog/
 url: "https://artlogic.github.io" # the base hostname & protocol for your site
 
-license: > # the license (or copyright notice) for your site
-  Copyright &copy; 2016 Your Name
+license: > # the license for your site - optional
+  Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 # Build settings
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE']
