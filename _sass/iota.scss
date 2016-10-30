@@ -56,9 +56,9 @@ header.site {
     // readability - clear separation of content
     border-bottom: $horizontal-rule;
 
-    // consistency - make the page title look like an h1
+    // opinionated - make the page title look like an h2
     p.title {
-        font-size: 2em;  // matches normalize
+        font-size: 1.5em;  // common h2 size (browser styles)
         font-weight: bold;
     }
 
