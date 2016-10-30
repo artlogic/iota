@@ -1,5 +1,5 @@
 <footer>
-  <p class="copyright"><small>Copyright &copy; {{ page.date | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a></small></p>
+  <p class="copyright"><small>Copyright &copy; {{ page.date | default: site.time | date: "%Y" }} <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a></small></p>
 
   {% if site.license %}
   <p class="license"><small>{{ site.license }}</small></p>
