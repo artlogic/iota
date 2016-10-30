@@ -12,7 +12,9 @@ author:
   email: your-email@domain.com
 description: > # this means to ignore newlines until "url:"
   Write an awesome description for your new site here.
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/iota" # the subpath of your site, e.g. /blog/
+url: "https://artlogic.github.io" # the base hostname & protocol for your site
+
 license: > # the license (or copyright notice) for your site
   Copyright &copy; 2016 Your Name
 
