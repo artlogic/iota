@@ -20,5 +20,4 @@ Additionally, I've borrowed the Github/Jekyll [syntax highlighting style sheet](
 
 * Remove the compose and html-proofer plugins (just used for testing)
 * Package as a Jekyll theme
-* Rename the repo? iota-theme? jekyll-iota? jekyll-iota-theme?
-* Aria roles?
+* Pagination
