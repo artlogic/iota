@@ -16,7 +16,8 @@ baseurl: "/iota" # the subpath of your site, e.g. /blog/
 url: "https://artlogic.github.io" # the base hostname & protocol for your site
 
 license: > # the license for your site - optional
-  Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+  This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>.
+powered_by: false  # display the powered by and theme info in the footer
 
 # Build settings
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE']
