@@ -2,8 +2,6 @@
 
 A brutalist jekyll theme.
 
-Note: the github pages example linked above won't work until jekyll 3.3 is supported - sorry!
-
 I was fascinated by a number of [comments](https://news.ycombinator.com/item?id=11517491) on Hacker News about brutalist web design. It seems that there's some contention on what brutalism means when it comes to the web. This is my attempt at a brutalism on the web. Here are the guidelines I've followed:
 
 * Markup is as minimal and compliant as possible (with the exception of some header tags that aren't technically needed, but make site's markup more conistent as a whole).
