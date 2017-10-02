@@ -28,3 +28,4 @@ Additionally, I've borrowed the Github/Jekyll [syntax highlighting style sheet](
 * Remove the compose and html-proofer plugins (just used for testing)
 * Package as a Jekyll theme
 * Pagination
+* Update to Normalize 7 and test
