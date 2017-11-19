@@ -7,11 +7,6 @@ $spacing: 0.5em;
 // some inspiration taken from http://bettermotherfuckingwebsite.com/
 
 html {
-    // normalize changes the browser default to sans-serif - while I
-    // agree with most of normalize's opinionated changes, this one
-    // should crosses the line for me
-    font-family: serif;
-
     // readability - this isn't an aesthetic change, but a practical
     // one - smaller, more closely spaced fonts are harder to read
     font-size: 18px;
